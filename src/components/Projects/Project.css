@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Freeman&family=Poetsen+One&display=swap');
+
+.pic{
+    width: 60%;
+}
+.container{
+    margin-top: 20px;
+}
+.r1 a{
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+.card-body{
+    text-align: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 600;
+}
+.card-header{
+    text-align: center;
+}
+.card{
+    margin-top: 20px;
+    box-shadow: 15px 15px 20px rgb(170, 165, 165),
+    -15px -15px 20px rgb(239, 237, 237);
+}
+h2{
+    font-family: 'Roboto',sans-serif;
+    font-weight: bold;
+}

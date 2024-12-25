@@ -1,0 +1,22 @@
+.footcontainer{
+    width: 100%;
+    padding: 70px 30px 30px;
+}
+.topcon{
+    display: flex;
+    justify-content: center;
+}
+.topcon a{
+    text-decoration: none;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 30%;
+}
+.topcon a i{
+    font-size: 2rem;
+    color: black;
+    opacity: 0.9;
+}
+.topcon a:hover{
+    background-color: gray;
+}

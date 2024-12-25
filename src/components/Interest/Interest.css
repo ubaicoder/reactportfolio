@@ -1,0 +1,14 @@
+.re img{
+    border-radius: 5px;
+    width: 40%;
+    display: inline-block;
+}
+.rm img{
+    border-radius: 5px;
+    width: 40%;
+    display: inline-block;
+}
+h2{
+    font-family: 'Roboto',sans-serif;
+    font-weight: bold;
+}

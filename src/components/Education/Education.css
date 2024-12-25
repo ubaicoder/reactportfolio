@@ -1,0 +1,20 @@
+.c1{
+    margin-top: 25px;
+    padding-top: 20px;
+}
+.c1 img{
+    width: 150%;
+}
+.feature-icon{
+    width: 50px;
+    height: auto;
+    background-color: white;
+}
+.c1 h2{
+    padding-top: 20px;
+    font-family: 'Roboto',sans-serif;
+    font-weight: bold;
+}
+.c1 p{
+    font-weight: bold;
+}

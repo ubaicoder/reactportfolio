@@ -1,0 +1,8 @@
+.list-group{
+   box-shadow: 15px 15px 20px rgb(170, 165, 165),
+   -15px -15px 20px rgb(239, 237, 237);
+}
+h2{
+    font-family: 'Roboto',sans-serif;
+    font-weight: bold;
+}
