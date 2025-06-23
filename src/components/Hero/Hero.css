@@ -26,8 +26,3 @@
 .new h6{
     font-weight: 800;
 }
-.row{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
