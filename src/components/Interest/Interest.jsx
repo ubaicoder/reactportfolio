@@ -7,10 +7,10 @@ function Interest() {
         <div className="col-lg-6">
           <h3 className="fw-bold">Playing Cricket</h3>
           <p>
-            I like to play Cricket as it is a good sports and i have played
-            since my childhood. Also my father is cricketer that incourage me to
-            have interest in playing cricket. I have also played red ball
-            cricket for one season with Elite Cricket Club.
+            I like to play cricket as it is a good sport, and I have been
+            playing since my childhood. My father is also a cricketer, which
+            encouraged me to develop an interest in cricket. I have also played
+            red-ball cricket for one season with the Elite Cricket Club.
           </p>
         </div>
         <div className="col-lg-6 re">
@@ -34,10 +34,10 @@ function Interest() {
           <div className="col-lg-6">
             <h3 className="fw-bold">Watching Motogp</h3>
             <p>
-              Motogp is bike racing sport.It is the one of the best racing
-              sport.My whole family watches this race on weekends.In this you
-              can see new upgraded faster bike every year.In this my favourite
-              rider is Marc Marquez.
+              MotoGP is a bike racing sport. It is one of the best racing
+              sports. My whole family watches the races on weekends. In MotoGP,
+              you can see newly upgraded and faster bikes every year. My
+              favourite rider is Marc Marquez.
             </p>
           </div>
         </div>
@@ -45,4 +45,4 @@ function Interest() {
     </div>
   );
 }
-export default Interest
+export default Interest;

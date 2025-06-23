@@ -23,8 +23,15 @@
     margin-top: 20px;
     box-shadow: 15px 15px 20px rgb(170, 165, 165),
     -15px -15px 20px rgb(239, 237, 237);
+    background: white;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 h2{
     font-family: 'Roboto',sans-serif;
     font-weight: bold;
+}
+.card:hover{
+    transform: translateY(-10px);
+    box-shadow: 20px 20px 30px rgb(170, 165, 165),
+    -20px -20px 30px rgb(239, 237, 237);
 }

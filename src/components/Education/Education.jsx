@@ -13,8 +13,8 @@ function Educcation() {
               className="img-fluid"
             />
           </div>
-          <h3 className="fs-2 text-body-emphasis">Schooling</h3>
-          <p>
+          <h3 className="fs-2 text-body-emphasis fw-bold">Schooling</h3>
+          <p className="text-body-secondary fw-medium">
             I have completed my schooling from St Mary's High School(SSC) which is located at Mazagon.
           </p>
         </div>
@@ -27,8 +27,8 @@ function Educcation() {
               className="img-fluid"
             />
           </div>
-          <h3 className="fs-2 text-body-emphasis">Junior College</h3>
-          <p>
+          <h3 className="fs-2 text-body-emphasis fw-bold">Junior College</h3>
+          <p className="text-body-secondary fw-medium">
             I have done my 11th and 12th in the stream of Science from Jai Hind College which is located at Churchgate.
           </p>
         </div>
@@ -41,8 +41,8 @@ function Educcation() {
               className="img-fluid"
             />
           </div>
-          <h3 className="fs-2 text-body-emphasis">Under Graduation</h3>
-          <p>
+          <h3 className="fs-2 text-body-emphasis fw-bold">Under Graduation</h3>
+          <p className="text-body-secondary fw-medium">
             I am pursing my under graduation in B.Tech in the field of Information Technology from Shah And Anchor Kutchhi Engineering College which located in Chembur.
           </p>
         </div>

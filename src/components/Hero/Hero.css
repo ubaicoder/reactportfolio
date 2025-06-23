@@ -1,6 +1,6 @@
 .pics{
     width: 30%;
-    margin-left: 170px;
+    margin-left: 110px;
     margin-top: 25px;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -25,4 +25,9 @@
 }
 .new h6{
     font-weight: 800;
+}
+.row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
