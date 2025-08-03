@@ -9,21 +9,29 @@ function Project() {
             <div className="card">
               <div className="card-header">
                 <img
-                  src="./weather.png"
+                  src="./banking.png"
                   alt="1st project"
                   srcset=""
                   className="pic"
                 />
               </div>
               <div className="card-body">
-                <h4 className="text-center">Weather Website</h4>
+                <h4 className="text-center">💳Banking Web App</h4>
                 <p className="text-center">
-                  The website shows the weather of the entered location or the
-                  current location of the user. Web Technologies Used:
-                  HTML,CSS,JavaScript,API
+                  A full-stack banking system to manage deposits, withdrawals,
+                  and view transactions in real time. Built with React, Node.js,
+                  Express, and MySQL, with a responsive UI and secure REST APIs.
                 </p>
+                <div className="text-center mt-2 mb-2">
+                  <span className="badge bg-primary me-1">React</span>
+                  <span className="badge bg-success me-1">Node.js</span>
+                  <span className="badge bg-dark me-1">Express</span>
+                  <span className="badge bg-warning text-dark me-1">MySQL</span>
+                  <span className="badge bg-info text-dark">Bootstrap</span>
+                </div>
+
                 <button className="btn btn-primary" type="button">
-                  <a href="https://ubaicoder.github.io/BITask2/">View Site</a>
+                  <a href="https://frontend-nb.onrender.com">View Site</a>
                 </button>
               </div>
             </div>
@@ -33,19 +41,29 @@ function Project() {
             <div className="card">
               <div className="card-header">
                 <img
-                  src="./resume.png"
+                  src="./kicks.png"
                   alt="2nd-project"
                   srcset=""
                   className="pic"
                 />
               </div>
               <div className="card-body">
-                <h4 className="text-center">Online Resume Builder</h4>
+                <h4 className="text-center">👟 Kicks - Shoe Store </h4>
                 <p className="text-center">
-                  This website developed to make user's experience of creating
-                  resumes online in a easier way. Web Technologies Used:
-                  HTML,CSS,JavaScript
+                  A responsive frontend e-commerce platform for browsing and
+                  purchasing shoes. Built with React and styled using Bootstrap,
+                  it supports category-based filtering (Men, Women, Sneakers,
+                  Sports). Features include cart management via React Context
+                  API, Razorpay payment integration, and OAuth-based user
+                  authentication. Scalable for future backend expansion with
+                  Node.js and MongoDB.
                 </p>
+                <div className="text-center mt-2 mb-2">
+                  <span className="badge bg-primary me-1">React</span>
+                  <span className="badge bg-success me-1">Redux</span>
+                  <span className="badge bg-info text-dark">Bootstrap</span>
+                </div>
+
                 <button className="btn btn-primary" type="button">
                   <a href="https://ubaicoder.github.io/Coding-Raja-Technologies-Internship/">
                     View Site
@@ -59,21 +77,34 @@ function Project() {
             <div className="card">
               <div className="card-header">
                 <img
-                  src="./card3.jpg"
+                  src="./resume.png"
                   alt="3rd-project"
                   srcset=""
                   className="pic"
                 />
               </div>
               <div className="card-body">
-                <h4 className="text-center">Boat Clone</h4>
+                <h4 className="text-center">📄 Online Resume Builder</h4>
                 <p className="text-center">
-                  I created the clone website of Boat. While creating this
-                  website I knew about different properties of CSS. Web
-                  Technologies Used: HTML,CSS,BootStrap
+                  A simple and responsive web app that allows users to create
+                  clean, professional resumes from predefined templates. Built
+                  using HTML, CSS, JavaScript, and Bootstrap, it enables users
+                  to input personal and professional details and download a
+                  well-formatted resume instantly.
                 </p>
+                <div className="text-center mt-2 mb-2">
+                  <span className="badge bg-primary me-1">HTML</span>
+                  <span className="badge bg-success me-1">CSS</span>
+                  <span className="badge bg-warning text-dark me-1">
+                    JavaScript
+                  </span>
+                  <span className="badge bg-info text-dark">Bootstrap</span>
+                </div>
+
                 <button className="btn btn-primary">
-                  <a href="https://ubaicoder.github.io/clone1/">View Site</a>
+                  <a href="https://ubaicoder.github.io/Coding-Raja-Technologies-Internship/">
+                    View Site
+                  </a>
                 </button>
               </div>
             </div>

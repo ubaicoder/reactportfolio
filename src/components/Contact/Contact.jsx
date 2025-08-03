@@ -14,11 +14,11 @@ function Contact() {
             <i className="fa-brands fa-instagram"></i>
           </a>
           <a href="https://github.com/ubaicoder">
-          <i className="fa-brands fa-github"></i>
+            <i className="fa-brands fa-github"></i>
           </a>
         </div>
       </div>
     </footer>
   );
 }
-export default Contact 
+export default Contact;

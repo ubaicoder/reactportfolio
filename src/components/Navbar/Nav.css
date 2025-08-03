@@ -1,23 +1,66 @@
-@import url('https://fonts.googleapis.com/css2?family=Anton&family=Freeman&family=Poetsen+One&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Freeman&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,500;1,500&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
 
-.navbar-collapse{
-    margin-left: 35%;
-}
-.nav-item{
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bolder;
-}
-.navbar-brand{
-    font-family: "Poetsen One", sans-serif;
-    font-weight: 500;
-    text-shadow: 0px 0px 4px rgb(135, 84, 84);
-   
-}
-.navbar{
-    /* border: 5px solid black; */
-    border-radius: 50px;
-    margin-top: 4px;
-    padding: 5px;
-    box-shadow: 10px 10px 20px rgb(170, 165, 165),
+/* Navbar Container */
+.navbar {
+  border-radius: 50px;
+  padding: 10px 30px;
+  margin: 8px;
+  background-color: #fff;
+  box-shadow: 10px 10px 20px rgb(170, 165, 165),
     -10px -10px 20px rgb(239, 237, 237);
 }
+
+/* Logo Image */
+.logopic {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  border-radius: 50%;
+  box-shadow: 0px 0px 10px rgb(135, 84, 84);
+}
+
+/* Nav Items */
+.navbar-nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap !important;
+}
+
+.nav-item {
+  font-family: "Nunito", sans-serif;
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+.nav-link {
+  color: #000;
+  transition: color 0.3s ease;
+  padding: 8px 12px;
+  border-radius: 10px;
+}
+
+.nav-link:hover {
+  color: #ff8c00 !important;
+  background-color: rgba(255, 140, 0, 0.1); 
+}
+
+/* Toggler (Hamburger) Icon */
+.navbar-toggler {
+  border-radius: 20% !important;
+}
+
+.navbar-toggler:focus {
+  box-shadow: none !important;
+}
+
+/* When you set a fixed width and height on an image and want to prevent distortion, object-fit tells the browser how to scale and crop the image.
+ When to Use object-fit:
+ Situation	Recommended object-fit
+ Profile photos / cards with round corners - cover
+ Thumbnails that shouldn't crop	- contain
+ Stretching banners - fill
+ Maintaining original size -none
+
+ */

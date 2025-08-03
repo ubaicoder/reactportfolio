@@ -5,7 +5,7 @@ function Navigation() {
   return (
     <nav className="navbar sticky-top navbar-expand-lg bg-body-tertiary">
     <div className="container-fluid">
-      <Link className="navbar-brand fs-4" to="/">Ubai</Link>
+      <Link className="navbar-brand fs-4" to="/"><img src="./ubai.png" alt="" className="logopic" /></Link>
       <button
         className="navbar-toggler"
         type="button"
@@ -18,7 +18,7 @@ function Navigation() {
         <span className="navbar-toggler-icon"></span>
       </button>
       <div className="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul className="navbar-nav me-auto mb-2 mb-lg-0">
+        <ul className="navbar-nav mx-auto mb-2 mb-lg-0">
           <li className="nav-item">
             <Link className="nav-link active" aria-current="page" to="/Projects">
               Projects
