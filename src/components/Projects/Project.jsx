@@ -65,7 +65,7 @@ function Project() {
                 </div>
 
                 <button className="btn btn-primary" type="button">
-                  <a href="https://ubaicoder.github.io/Coding-Raja-Technologies-Internship/">
+                  <a href="https://github.com/ubaicoder/kicks-shoep.git">
                     View Site
                   </a>
                 </button>
