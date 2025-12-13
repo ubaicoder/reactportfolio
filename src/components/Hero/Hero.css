@@ -42,3 +42,16 @@
     text-shadow: 0px 0px 2px black;
     transform:scale(1.5);
 }
+.about-text {
+  font-size: 14px;
+  line-height: 1.8;
+  color: #555;
+  margin-bottom: 15px;
+  font-family: "Poppins", sans-serif;
+}
+.about-text span {
+  font-weight: bold;
+  color: #f5a623;
+  white-space: nowrap;
+}
+

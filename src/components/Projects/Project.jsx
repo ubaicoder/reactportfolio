@@ -66,7 +66,7 @@ function Project() {
 
                 <button className="btn btn-primary" type="button">
                   <a href="https://github.com/ubaicoder/kicks-shoep.git">
-                    View Site
+                    View Code
                   </a>
                 </button>
               </div>
@@ -77,34 +77,32 @@ function Project() {
             <div className="card">
               <div className="card-header">
                 <img
-                  src="./resume.png"
+                  src="./dental.jpg"
                   alt="3rd-project"
                   srcset=""
                   className="pic"
                 />
               </div>
               <div className="card-body">
-                <h4 className="text-center">📄 Online Resume Builder</h4>
+                <h4 className="text-center">🏥 Dental Mangement System</h4>
                 <p className="text-center">
-                  A simple and responsive web app that allows users to create
-                  clean, professional resumes from predefined templates. Built
-                  using HTML, CSS, JavaScript, and Bootstrap, it enables users
-                  to input personal and professional details and download a
-                  well-formatted resume instantly.
+                  A Second Year Engineering Mini Project developed using Django
+                  to streamline dental clinic operations such as appointment
+                  booking, conflict handling, and prescription management. I
+                  contributed to the frontend development, focusing on
+                  responsive UI and user-friendly patient and doctor interfaces
+                  with secure email/OTP verification.
                 </p>
                 <div className="text-center mt-2 mb-2">
                   <span className="badge bg-primary me-1">HTML</span>
                   <span className="badge bg-success me-1">CSS</span>
                   <span className="badge bg-warning text-dark me-1">
-                    JavaScript
+                    Django
                   </span>
-                  <span className="badge bg-info text-dark">Bootstrap</span>
                 </div>
 
                 <button className="btn btn-primary">
-                  <a href="https://ubaicoder.github.io/Coding-Raja-Technologies-Internship/">
-                    View Site
-                  </a>
+                  <a href="https://lnkd.in/dw3y7SbF">View Code</a>
                 </button>
               </div>
             </div>
