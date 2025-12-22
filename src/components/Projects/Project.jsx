@@ -102,7 +102,7 @@ function Project() {
                 </div>
 
                 <button className="btn btn-primary">
-                  <a href="https://lnkd.in/dw3y7SbF">View Code</a>
+                  <a href="https://dentalclinicsystem.onrender.com/">View Site</a>
                 </button>
               </div>
             </div>
