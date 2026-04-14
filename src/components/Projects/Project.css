@@ -1,42 +1,114 @@
-@import url("https://fonts.googleapis.com/css2?family=Freeman&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,500;1,500&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=BBH+Bartle&family=Boldonse&family=Freeman&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,500;1,500&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Poppins:wght@300;400;500;600;700&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
 
-.pic {
-  width: 60%;
+/* TITLE */
+.project-title {
+  font-family: "Montserrat", sans-serif;
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 2.3rem;
 }
-.container {
-  margin-top: 20px;
-}
-.r1 a {
-  text-decoration: none;
-  color: white;
-  cursor: pointer;
-}
-.card-body {
+
+/* CARD */
+.project-card {
+  background: rgba(255, 255, 255, 0.03);
+  backdrop-filter: blur(10px);
+
+  border-radius: 15px;
+  padding: 20px;
   text-align: center;
+
+  border: 1px solid rgba(255, 255, 255, 0.08);
+
+  transition: all 0.3s ease;
+}
+
+/* HOVER */
+.project-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.4);
+}
+
+/* IMAGE */
+.project-img {
+  width: 100%;
+  max-height: 180px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+/* PROJECT TITLE */
+.project-card h4 {
+  font-family: "Poppins", sans-serif;
+  color: #ffffff;
+  margin-bottom: 10px;
   font-weight: 600;
 }
-.card-header {
-  text-align: center;
+
+/* DESCRIPTION */
+.project-card p {
+  font-family: "Poppins", sans-serif;
+  color: #cbd5e1;
+  font-size: 14px;
+  line-height: 1.6;
 }
-.card {
-  margin-top: 20px;
-  box-shadow: 15px 15px 20px rgb(170, 165, 165),
-    -15px -15px 20px rgb(239, 237, 237);
-  background: white;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+/* BADGES */
+.badges {
+  margin: 10px 0;
 }
-h2 {
-  font-family: "Montserrat", sans-serif !important;
-  font-weight: bolder !important;
+
+.badges span {
+  font-family: "Poppins", sans-serif;
+  background: rgba(56, 189, 248, 0.15);
+  color: #38bdf8;
+  padding: 5px 10px;
+  margin: 3px;
+  border-radius: 8px;
+  font-size: 12px;
 }
-.card:hover {
-  transform: translateY(-10px);
-  box-shadow: 20px 20px 30px rgb(170, 165, 165),
-    -20px -20px 30px rgb(239, 237, 237);
+
+/* BUTTON GROUP */
+.btn-group {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 12px;
 }
-.card-body h4 {
-  font-family: "Poppins", sans-serif !important;
+
+/* BUTTON */
+.btn-group a {
+  font-family: "Poppins", sans-serif;
+
+  padding: 8px 16px;
+  border-radius: 8px;
+  text-decoration: none;
+
+  font-size: 14px;
+  font-weight: 500;
+
+  transition: all 0.3s ease;
 }
-.card-body p {
-  font-family: "Nunito", sans-serif !important;
+
+/* LIVE BUTTON */
+.btn-group a:first-child {
+  background: #38bdf8;
+  color: #020617;
+}
+
+/* CODE BUTTON */
+.btn-group a:last-child {
+  background: transparent;
+  color: #38bdf8;
+  border: 1px solid #38bdf8;
+}
+
+/* HOVER */
+.btn-group a:hover {
+  transform: scale(1.05);
+}
+
+.btn-group a:last-child:hover {
+  background: #38bdf8;
+  color: #020617;
 }

@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=BBH+Bartle&family=Boldonse&family=Freeman&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,500;1,500&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Poppins:wght@300;400;500;600;700&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* SECTION */
+.about-section {
+  padding: 80px 0;
+}
+
+/* SUBTITLE */
+.section-subtitle {
+  font-family: "Poppins", sans-serif;
+  color: #38bdf8;
+  letter-spacing: 2px;
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  margin-bottom: 5px;
+}
+
+/* TITLE */
+.about-title {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 2.3rem;
+  color: #ffffff;
+  position: relative;
+}
+
+/* UNDERLINE EFFECT */
+.about-title::after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  background: #38bdf8;
+  margin: 10px auto;
+  border-radius: 10px;
+}
+
+/* GLASS CARD */
+.about-content {
+  background: rgba(255, 255, 255, 0.03);
+  backdrop-filter: blur(10px);
+
+  padding: 35px;
+  border-radius: 15px;
+
+  border: 1px solid rgba(255, 255, 255, 0.08);
+
+  max-width: 800px;
+  margin: auto;
+}
+
+/* TEXT */
+.about-text {
+  font-family: "Poppins", sans-serif;
+  color: #cbd5e1;
+  font-size: 16px;
+  line-height: 1.9;
+  margin-bottom: 20px;
+}
+
+/* HIGHLIGHT */
+.about-text span {
+  color: #38bdf8;
+  font-weight: 500;
+}

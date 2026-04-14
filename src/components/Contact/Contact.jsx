@@ -1,24 +1,60 @@
 import "./Contact.css";
+import { FaGithub, FaLinkedin, FaInstagram, FaEnvelope } from "react-icons/fa";
+
 function Contact() {
   return (
-    <footer>
-      <div className="footcontainer">
-        <div className="topcon">
+    <footer className="footer">
+      <div className="container text-center">
+
+        {/* TITLE */}
+        <h4 className="footer-title">Connect with Me</h4>
+
+        {/* ICONS */}
+        <div className="social-icons">
+
           <a href="mailto:ubairatangiri@gmail.com">
-            <i className="fa-regular fa-envelope"></i>
+            <FaEnvelope />
           </a>
-          <a href="https://www.linkedin.com/in/ubai-ratangiri-b15b12225?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">
-            <i className="fa-brands fa-linkedin"></i>
+
+          <a
+            href="https://www.linkedin.com/in/ubai-ratangiri-b15b12225"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <FaLinkedin />
           </a>
-          <a href="https://www.instagram.com/ubai_ratangiri?igsh=MThhb2NjZWZzNHIwcw==">
-            <i className="fa-brands fa-instagram"></i>
+
+          <a
+            href="https://www.instagram.com/ubai_ratangiri"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <FaInstagram />
           </a>
-          <a href="https://github.com/ubaicoder">
-            <i className="fa-brands fa-github"></i>
+
+          <a
+            href="https://github.com/ubaicoder"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <FaGithub />
           </a>
+
         </div>
+
+        {/* RESUME BUTTON */}
+        <a href="./resume.pdf" download className="resume-btn">
+          Download Resume
+        </a>
+
+        {/* COPYRIGHT */}
+        <p className="footer-text">
+          © 2026 Ubai Ratangiri. All rights reserved.
+        </p>
+
       </div>
     </footer>
   );
 }
+
 export default Contact;

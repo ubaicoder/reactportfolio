@@ -1,87 +1,96 @@
 import "./Skill.css";
+import { motion } from "framer-motion";
+import { FaJava, FaReact, FaNodeJs, FaGitAlt, FaCss3Alt } from "react-icons/fa";
+import { SiMongodb, SiMysql, SiJavascript, SiHtml5 } from "react-icons/si";
+import { VscCode } from "react-icons/vsc";
+
 function Skill() {
   return (
     <>
-      <h2 className="text-center fw-bolder">Skills</h2>
-      <div className="d-flex flex-column flex-md-row p-4 gap-4 py-md-5 align-items-center justify-content-center sk">
-        <div className="list-group">
-          <a
-            className="list-group-item list-group-item-action d-flex gap-3 py-3"
-            aria-current="true"
+      <h2 className="text-center skill-title mt-5">Skills</h2>
+
+      <div className="container">
+        <div className="row g-4 mt-3">
+
+          {/* Programming */}
+          <motion.div
+            className="col-lg-3 col-md-6 col-12"
+            initial={{ opacity: 0, y: 30 }}
+            whileInView={{ opacity: 1, y: 0 }}
           >
-            <img
-              src="./images.png"
-              alt="twbs"
-              width="32"
-              height="32"
-              className="rounded-circle flex-shrink-0"
-            />
-            <div className="d-flex gap-2 w-100 justify-content-between">
-              <div>
-                <h6 className="mb-0">Programming Languages</h6>
-                <p className="mb-0 opacity-75">Java, C Programming.</p>
+            <div className="skill-card">
+              <div className="skill-icon">
+                <FaJava />
               </div>
+              <h5>Programming</h5>
+              <p>Java</p>
             </div>
-          </a>
-          <a
-            className="list-group-item list-group-item-action d-flex gap-3 py-3"
-            aria-current="true"
+          </motion.div>
+
+          {/* Frontend */}
+          <motion.div
+            className="col-lg-3 col-md-6 col-12"
+            initial={{ opacity: 0, y: 30 }}
+            whileInView={{ opacity: 1, y: 0 }}
           >
-            <img
-              src="./images.png"
-              alt="twbs"
-              width="32"
-              height="32"
-              className="rounded-circle flex-shrink-0"
-            />
-            <div className="d-flex gap-2 w-100 justify-content-between">
-              <div>
-                <h6 className="mb-0">Web Development</h6>
-                <p className="mb-0 opacity-75">HTML, CSS, JavaScript, React.</p>
+            <div className="skill-card">
+              <div className="skill-icon">
+                <SiHtml5 /> <FaCss3Alt /> <SiJavascript /> <FaReact />
               </div>
+              <h5>Frontend</h5>
+              <p>HTML, CSS, JavaScript, React</p>
             </div>
-          </a>
-          <a
-            className="list-group-item list-group-item-action d-flex gap-3 py-3"
-            aria-current="true"
+          </motion.div>
+
+          {/* Backend */}
+          <motion.div
+            className="col-lg-3 col-md-6 col-12"
+            initial={{ opacity: 0, y: 30 }}
+            whileInView={{ opacity: 1, y: 0 }}
           >
-            <img
-              src="./images.png"
-              alt="twbs"
-              width="32"
-              height="32"
-              className="rounded-circle flex-shrink-0"
-            />
-            <div className="d-flex gap-2 w-100 justify-content-between">
-              <div>
-                <h6 className="mb-0">Tools & IDEs</h6>
-                <p className="mb-0 opacity-75">
-                  Visual Studio Code, IntelliJ IDEA.
-                </p>
+            <div className="skill-card">
+              <div className="skill-icon">
+                <FaNodeJs />
               </div>
+              <h5>Backend</h5>
+              <p>Node.js, Express</p>
             </div>
-          </a>
-          <a
-            className="list-group-item list-group-item-action d-flex gap-3 py-3"
-            aria-current="true"
+          </motion.div>
+
+          {/* Database */}
+          <motion.div
+            className="col-lg-3 col-md-6 col-12"
+            initial={{ opacity: 0, y: 30 }}
+            whileInView={{ opacity: 1, y: 0 }}
           >
-            <img
-              src="./images.png"
-              alt="twbs"
-              width="32"
-              height="32"
-              className="rounded-circle flex-shrink-0"
-            />
-            <div className="d-flex gap-2 w-100 justify-content-between">
-              <div>
-                <h6 className="mb-0">FrameWorks</h6>
-                <p className="mb-0 opacity-75">BootStrap, Expressjs.</p>
+            <div className="skill-card">
+              <div className="skill-icon">
+                <SiMysql /> <SiMongodb />
               </div>
+              <h5>Database</h5>
+              <p>SQL, MongoDB (Intermediate)</p>
             </div>
-          </a>
+          </motion.div>
+
+          {/* Tools */}
+          <motion.div
+            className="col-lg-3 col-md-6 col-12"
+            initial={{ opacity: 0, y: 30 }}
+            whileInView={{ opacity: 1, y: 0 }}
+          >
+            <div className="skill-card">
+              <div className="skill-icon">
+                <FaGitAlt /> <VscCode />
+              </div>
+              <h5>Tools</h5>
+              <p>VS Code, IntelliJ, Git</p>
+            </div>
+          </motion.div>
+
         </div>
       </div>
     </>
   );
 }
+
 export default Skill;

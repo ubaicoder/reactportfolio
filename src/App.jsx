@@ -4,8 +4,8 @@ import Hero from "./components/Hero/Hero";
 import Project from "./components/Projects/Project";
 import Education from "./components/Education/Education";
 import Skill from "./components/Skills/Skill";
-import Interest from "./components/Interest/Interest";
 import Contact from "./components/Contact/Contact";
+import About from "./components/AboutMe/About";
 import "./App.css";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
@@ -17,10 +17,11 @@ function App() {
         <>
           <Nav />
           <Hero />
+          <About />
           <Project />
           <Education />
           <Skill />
-          <Interest />
+
           <Contact />
         </>
       ),
@@ -31,6 +32,15 @@ function App() {
         <>
           <Nav />
           <Project />
+        </>
+      ),
+    },
+    {
+      path: "/AboutMe",
+      element: (
+        <>
+          <Nav />
+          <About />
         </>
       ),
     },
@@ -52,15 +62,7 @@ function App() {
         </>
       ),
     },
-    {
-      path: "/Interest",
-      element: (
-        <>
-          <Nav />
-          <Interest />
-        </>
-      ),
-    },
+
     {
       path: "/Contact",
       element: (

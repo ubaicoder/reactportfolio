@@ -1,27 +1,57 @@
-@import url("https://fonts.googleapis.com/css2?family=Freeman&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,500;1,500&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=BBH+Bartle&family=Boldonse&family=Freeman&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,500;1,500&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Poppins:wght@300;400;500;600;700&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+/* SECTION */
 .edu {
-  margin-top: 25px;
-  padding-top: 20px;
+  margin-top: 40px;
 }
-.edu img {
-  width: 150%;
+
+/* TITLE */
+.education-title {
+  font-family: "Montserrat", sans-serif;
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 2.3rem;
 }
-.feature-icon {
+
+/* CARD */
+.edu-card {
+  background: rgba(255, 255, 255, 0.03);
+  backdrop-filter: blur(10px);
+
+  border-radius: 15px;
+  padding: 25px;
+  text-align: center;
+
+  border: 1px solid rgba(255, 255, 255, 0.08);
+
+  transition: 0.3s ease;
+}
+
+/* HOVER */
+.edu-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4);
+}
+
+/* ICON */
+.edu-icon {
   width: 50px;
-  height: auto;
-  background-color: white;
+  margin-bottom: 15px;
+  filter: brightness(0) invert(1); /* makes icon white */
 }
-.edu h2 {
-  padding-top: 20px;
-  font-family: "Montserrat", sans-serif !important;
-  font-weight: 500;
+
+/* HEADING */
+.edu-card h3 {
+  font-family: "Poppins", sans-serif;
+  color: #ffffff;
+  font-weight: 600;
+  margin-bottom: 10px;
 }
-.edu p {
-  font-weight: bold;
-  font-family: "Nunito", sans-serif !important;
-  font-size: 1rem;
-}
-.edu h3{
-    font-family: "Poppins", sans-serif !important;
-    font-weight: 600;
+
+/* TEXT */
+.edu-card p {
+  font-family: "Poppins", sans-serif;
+  color: #cbd5e1;
+  font-size: 14px;
+  line-height: 1.6;
 }

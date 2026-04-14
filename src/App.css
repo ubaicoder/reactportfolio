@@ -1,3 +1,14 @@
 html {
   scroll-behavior: smooth;
 }
+body {
+  min-height: 100vh;
+  background: linear-gradient(
+    135deg,
+    #020617 0%,
+    #0b1120 40%,
+    #0f172a 70%,
+    #020617 100%
+  );
+  color: #e2e8f0;
+}
