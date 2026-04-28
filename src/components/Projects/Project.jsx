@@ -40,7 +40,7 @@ function Project() {
                 >
                   Live
                 </a>
-                <a href="#" target="_blank" rel="noreferrer">
+                <a href="https://github.com/ubaicoder/frontend-nb" target="_blank" rel="noreferrer">
                   Code
                 </a>
               </div>
@@ -72,7 +72,7 @@ function Project() {
 
               <div className="btn-group">
                 <a
-                  href="https://github.com/ubaicoder/kicks-shoep.git"
+                  href="https://github.com/ubaicoder/kicks-shoep"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -113,7 +113,7 @@ function Project() {
                 >
                   Live
                 </a>
-                <a href="#" target="_blank" rel="noreferrer">
+                <a href="https://github.com/pawanti8421/DentalClinicManagement" target="_blank" rel="noreferrer">
                   Code
                 </a>
               </div>
